@@ -1,0 +1,8 @@
+Download Oracle jar 11g/12g (ojdbc6)
+
+Install Oracle jdbc Library to local repository
+-----------------------------------------------
+mvn install:install-file -Dfile=ojdbc6-11.2.0.3.jar -DgroupId=com.oracle -DartifactId=oracle-jdbc -Dversion=11.2.0.3 -Dpackaging=jar
+
+
+File should be present in ~.../.m2/repository/com/oracle/oracle-jdbc/6/oracle-jdbc-6.jar
